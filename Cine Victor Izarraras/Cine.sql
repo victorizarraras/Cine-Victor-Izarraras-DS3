@@ -1,4 +1,3 @@
-﻿-- Script de la base de datos del cine (se puede correr varias veces sin borrar datos)
 IF DB_ID('Cine') IS NULL
     CREATE DATABASE Cine;
 GO
